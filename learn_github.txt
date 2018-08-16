@@ -37,6 +37,7 @@ Commands:
 10. git pull https://github.com/<username>/<reponame> master ==> checkout existing project
 11. git rm filename  ==> delete a file
 12. git diff filename ==> changes between commited and the latest version
+13. git log ==> find all the logs for the activities done
 
 Thats all for now
 
