@@ -21,6 +21,8 @@ Add remote repository by git remote add origin https://github.com/<username>/<re
 
 push files by doing git push -u origin master ==> post code to online repository
 
+Lets check the diff command
+
 
 Commands:
 1. git init ==> initialize git
@@ -34,7 +36,7 @@ Commands:
 9. git push -u origin master ==> post code to online repository
 10. git pull https://github.com/<username>/<reponame> master ==> checkout existing project
 11. git rm filename  ==> delete a file
-
+12. git diff filename ==> changes between commited and the latest version
 
 Thats all for now
 
