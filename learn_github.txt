@@ -1,0 +1,34 @@
+git repository path = https://github.com/madhusudhanreddola/learngit
+
+set up a project folder on Local coputer
+
+Open a terminal/ Command Prompt, and make the project folder as current directory
+
+type git init to initialize git in the folder, A .git folder gets created inside our project
+
+create  a Readme file, which is optional
+also a .gitignore file
+
+Add the files to make them ready to commit:  type git add --all
+
+check the status using git status
+
+Commit files using git commit -m "Initial Commit"
+
+Add user profile on git config --global --edit
+
+or each property by git config --global user.email "username@gmail.com"
+
+Commands:
+1. git init ==> initialize git
+2. git add --all  ==> Add all files to commit
+3. git add <filename>  ==> Add individual file to commit
+4. git status  ==> check git repository status at any time
+5. git commit -m "Initial Commit"  ==> commit files with message
+6. git config --global --edit ==> CHange user profile
+7. git config --global user.email "username@gmail.com" ==>  Change specific property
+
+
+
+
+
