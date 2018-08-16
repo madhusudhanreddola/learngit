@@ -1,5 +1,3 @@
-git repository path = https://github.com/madhusudhanreddola/learngit
-
 set up a project folder on Local coputer
 
 Open a terminal/ Command Prompt, and make the project folder as current directory
@@ -19,6 +17,11 @@ Add user profile on git config --global --edit
 
 or each property by git config --global user.email "username@gmail.com"
 
+Add remote repository by git remote add origin https://github.com/<username>/<reponame>
+
+push files by doing git push -u origin master ==> post code to online repository
+
+
 Commands:
 1. git init ==> initialize git
 2. git add --all  ==> Add all files to commit
@@ -27,7 +30,13 @@ Commands:
 5. git commit -m "Initial Commit"  ==> commit files with message
 6. git config --global --edit ==> CHange user profile
 7. git config --global user.email "username@gmail.com" ==>  Change specific property
+8. git remote add origin https://github.com/<username>/<reponame> ==> Add remote repository origin
+9. git push -u origin master ==> post code to online repository
+10. git pull https://github.com/<username>/<reponame> master ==> checkout existing project
+11. git rm filename  ==> delete a file
 
+
+Thats all for now
 
 
 
